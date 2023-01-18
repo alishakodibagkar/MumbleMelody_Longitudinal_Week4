@@ -4,7 +4,7 @@ module.exports = {
   startButton: {
     "en": 'Join'
   },
-  banner: 'Week 3 Testing Session for Mumble Melody Longitudinal Study',
+  banner: 'Week 4 Testing Session for Mumble Melody Longitudinal Study',
   assetsPublicPath: '/MumbleMelody_Longitudinal_Week4/',
   contact: 'akodiba1@mit.edu',
   showHelp: true,
