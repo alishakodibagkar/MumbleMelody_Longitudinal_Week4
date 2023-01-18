@@ -1,0 +1,71 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Activity",
+    "@id": "reverbQuestions_schema",
+    "prefLabel": "Reverb Questions",
+    "description": "Reverb Questions.",
+    "preamble": "For each speaking task, you should click the <u>Record</u> button before speaking and speak for the entire duration. Feel free to stutter freely while speaking.",
+    "schemaVersion": "1.0.0-rc4",
+    "version": "0.0.1",
+    "ui": {
+        "addProperties": [
+                {"isAbout": "items/introduction_item_1",
+                "variableName": "introduction_item_1",
+                "isVis": true
+		},
+		{"isAbout": "items/open_question_choice_A",
+                "variableName": "open_question_choice_A",
+                "isVis": true
+		}, 
+		{"isAbout": "items/open_question_1A",
+                "variableName": "open_question_1A",
+                "isVis": "open_question_choice_A === 0"
+		}, 
+		{"isAbout": "items/open_question_2A",
+                "variableName": "open_question_2A",
+                "isVis": "open_question_choice_A === 1"
+		},
+		{"isAbout": "items/open_question_choice_B",
+                "variableName": "open_question_choice_B",
+                "isVis": "open_question_choice_A === 1"
+		}, 
+		{"isAbout": "items/open_question_1B",
+                "variableName": "open_question_1B",
+                "isVis": "open_question_choice_B === 0"
+		}, 
+		{"isAbout": "items/open_question_3B",
+                "variableName": "open_question_3B",
+                "isVis": "open_question_choice_B === 1"
+		},
+		{"isAbout": "items/open_question_choice_C",
+                "variableName": "open_question_choice_C",
+                "isVis": "open_question_choice_A === 0"
+		}, 
+		{"isAbout": "items/open_question_2C",
+                "variableName": "open_question_2C",
+                "isVis": "open_question_choice_C === 0"
+		}, 
+		{"isAbout": "items/open_question_3C",
+                "variableName": "open_question_3C",
+                "isVis": "open_question_choice_C === 1"
+		}
+        ],
+        "order": [
+            "items/introduction_item_1",
+            "items/open_question_choice_A",
+            "items/open_question_1A",
+            "items/open_question_2A",
+            "items/open_question_choice_B",
+            "items/open_question_1B",
+            "items/open_question_3B",
+            "items/open_question_choice_C",
+            "items/open_question_2C",
+            "items/open_question_3C"
+        ],
+        "shuffle": false,
+        "allow": [
+			"reproschema:AutoAdvance",
+			"reproschema:AllowExport"
+		]
+    }
+}

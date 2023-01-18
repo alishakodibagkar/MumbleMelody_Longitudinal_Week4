@@ -1,0 +1,46 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Activity",
+    "@id": "baselineQuestions_schema",
+    "prefLabel": "Baseline Questions",
+    "description": "Baseline Questions.",
+    "preamble": "For each speaking task, you should click the <u>Record</u> button before speaking and speak for the entire duration. Feel free to stutter freely while speaking.",
+    "schemaVersion": "1.0.0-rc4",
+    "version": "0.0.1",
+    "ui": {
+        "addProperties": [
+                {"isAbout": "items/introduction_item",
+                "variableName": "introduction_item",
+                "isVis": true
+		},
+		{"isAbout": "items/open_question_1",
+                "variableName": "open_question_1",
+                "isVis": true
+		},  
+		{"isAbout": "items/open_question_choice_1",
+                "variableName": "open_question_choice_1",
+                "isVis": true
+		}, 
+		{"isAbout": "items/open_question_2",
+                "variableName": "open_question_2",
+                "isVis": "open_question_choice_1 === 0"
+		},  
+		{"isAbout": "items/open_question_3",
+                "variableName": "open_question_choice_3",
+                "isVis": "open_question_choice_1 === 1"
+		}
+        ],
+        "order": [
+            "items/introduction_item",
+	    "items/open_question_1",
+            "items/open_question_choice_1",
+            "items/open_question_2",
+            "items/open_question_3"
+        ],
+        "shuffle": false,
+        "allow": [
+			"reproschema:AutoAdvance",
+			"reproschema:AllowExport"
+		]
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "fluencyToday_item",
+    "prefLabel": "Question on current fluency",
+    "description": "Question on current fluency - radio item",
+    "schemaVersion": "1.0.0-rc4",
+    "version": "0.0.1",
+    "question": "How would you describe your speaking fluency today, compared to your usual fluency?",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "minValue": 0,
+        "maxValue": 2,
+        "multipleChoice": false,
+        "choices": [
+            {
+                "name": "My stutter is more severe today",
+                "value": 0
+            },
+            {
+                "name": "Same",
+                "value": 1
+            },
+            {
+                "name": "My stutter is more mild today",
+                "value": 2
+            }
+        ]
+    }
+}

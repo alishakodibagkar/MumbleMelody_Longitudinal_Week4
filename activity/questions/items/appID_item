@@ -1,0 +1,17 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "appID_item",
+    "prefLabel": "App ID",
+    "description": "App ID",
+    "schemaVersion": "1.0.0-rc4",
+    "version": "0.0.1",
+    "question": "Input your 8-digit App ID for the Mumble Melody app (located under “Application ID” on the home page):",
+    "ui": {
+        "inputType": "text"
+    },
+    "responseOptions": {
+        "valueType": "xxsd:string",
+        "maxLength": 8
+    }
+}

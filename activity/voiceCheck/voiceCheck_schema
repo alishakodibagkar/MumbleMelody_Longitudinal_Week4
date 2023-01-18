@@ -1,0 +1,26 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Activity",
+    "@id": "voiceCheck_schema",
+    "prefLabel": "Audio Check",
+    "description": "Audio check.",
+    "preamble": "For each speaking task, you should click the <u>Record</u> button before speaking and speak for the entire duration. Feel free to stutter freely while speaking.",
+    "schemaVersion": "1.0.0-rc4",
+    "version": "0.0.1",
+    "ui": {
+        "addProperties": [
+                {"isAbout": "items/voiceCheck_item",
+                "variableName": "voiceCheck_item",
+                "isVis": true
+		}       
+        ],
+        "order": [
+            "items/voiceCheck_item"
+        ],
+        "shuffle": false,
+        "allow": [
+			"reproschema:AutoAdvance",
+			"reproschema:AllowExport"
+		]
+    }
+}

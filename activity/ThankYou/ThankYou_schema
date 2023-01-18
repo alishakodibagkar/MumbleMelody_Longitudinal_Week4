@@ -1,0 +1,22 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Activity",
+    "@id": "ThankYou_schema",
+    "prefLabel": "Thank You",
+    "description": "ThankYou page schema",
+    "schemaVersion": "1.0.0-rc4",
+    "version": "0.0.1",
+    "ui": {
+        "addProperties": [
+            {
+                "isAbout": "items/ThankYou_item",
+                "variableName": "ThankYou_item",
+                "isVis": true
+            }
+        ],
+        "order": [
+            "items/ThankYou_item"
+        ],
+        "shuffle": false
+    }
+}

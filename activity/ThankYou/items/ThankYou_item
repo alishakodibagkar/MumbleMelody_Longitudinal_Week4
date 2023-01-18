@@ -1,0 +1,14 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "ThankYou_item",
+    "prefLabel": "Save data",
+    "description": "save data to server",
+    "schemaVersion": "1.0.0-rc4",
+    "version": "0.0.1",
+    "question": "Thank you for completing this testing session for this study!<br><br>When you are ready, click “Finish” to send us your results. If you have any issues at all, click the “Download” button on the sidebar to export a file with your submission and email us at mumblemelody@mit.edu so we can troubleshoot and get the files sent our way.",
+    "ui": {
+        "inputType": "save",
+        "readonlyValue": true
+    }
+}

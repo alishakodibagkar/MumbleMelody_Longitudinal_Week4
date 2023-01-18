@@ -1,0 +1,29 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "open_question_choice_B",
+    "prefLabel": "Choice to answer open question",
+    "description": "Choice to answer open question - radio item",
+    "schemaVersion": "1.0.0-rc4",
+    "version": "0.0.1",
+    "question": "Which of the following two questions would you like to answer? (90 seconds)<b>",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "minValue": 0,
+        "maxValue": 1,
+        "multipleChoice": false,
+        "choices": [
+            {
+                "name": "Where is the worst place you have been stuck for a long time?",
+                "value": 0
+            },
+            {
+                "name": "Do you like sports? Why? Which ones do you like? What is your favorite team/player?",
+                "value": 1
+            }
+        ]
+    }
+}

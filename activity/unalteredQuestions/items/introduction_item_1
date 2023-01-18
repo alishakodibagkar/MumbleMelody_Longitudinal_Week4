@@ -1,0 +1,25 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "introduction_item_1",
+    "prefLabel": "introduction item",
+    "description": "Introduction to Voice Section",
+    "schemaVersion": "1.0.0-rc4",
+    "version": "0.0.1",
+    "question": "In this section, we will be testing the Unaltered mode. The Unaltered mode will play back your unaltered voice. On the device in which you are using Mumble Melody, please attach your headphones to your device, wear your headphones, open the Mumble Melody app, and select the “Modes” button. Take a moment to turn the “Unaltered” mode on, test it by repeating a few words out loud (for example, “Testing 1, 2, 3”) and adjust your volume until you comfortably can hear the mode being used.<br><br>If you would like to hear what this mode should sound like, here is a link to our demo beginning at this mode: https://youtu.be/73SNCY7akoE?t=122<br><br>When you are able to hear the Mumble Melody mode, switch your browser back to this questionnaire to continue. Make sure you are still able to hear the mode.",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "minValue": 0,
+        "maxValue": 0,
+        "multipleChoice": false,
+        "choices": [
+            {
+                "name": "Continue",
+                "value": 0
+            }
+        ]
+    }
+}

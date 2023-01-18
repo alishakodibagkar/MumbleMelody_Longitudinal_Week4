@@ -1,0 +1,104 @@
+{
+    "@context": [
+        "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+        {
+            "activity_path": "https://raw.githubusercontent.com/ReproNim/reproschema-library/000ea1725a67b35944f67450057f8041cef090a7/activities/"
+        }
+    ],
+    "@type": "reproschema:Protocol",
+    "@id": "Week3_schema",
+    "prefLabel": {
+        "en": "Week3 Session"
+    },
+    "description": "Week 3 Testing Session for Mumble Melody Longitudinal Study",
+    "schemaVersion": "1.0.0-rc4",
+    "version": "0.0.1",
+    "landingPage": [{
+            "@id": "README-en.md",
+            "inLanguage": "en"
+        }
+    ],
+    "ui": {
+        "order": [
+	    "../activity/questions/questions_schema",
+            "../activity/voiceCheck/voiceCheck_schema",
+            "../activity/baselineQuestions/baselineQuestions_schema",
+            "../activity/unalteredQuestions/unalteredQuestions_schema",
+            "../activity/whisperQuestions/whisperQuestions_schema",
+            "../activity/reverbQuestions/reverbQuestions_schema",
+            "../activity/harmonizeQuestions/harmonizeQuestions_schema",
+	    "../activity/finalInterview/finalInterview_schema",
+	    "../activity/ThankYou/ThankYou_schema"
+        ],
+        "shuffle": false,
+        "addProperties": [
+            {
+                "isAbout": "../activity/questions/questions_schema",
+                "variableName": "questions_schema",
+                "prefLabel": {
+                    "en": "Questions"
+                }
+            },
+            {
+                "isAbout": "../activity/voiceCheck/voiceCheck_schema",
+                "variableName": "voiceCheck_schema",
+                "prefLabel": {
+                    "en": "Voice Check"
+                }
+            },
+            {
+                "isAbout": "../activity/baselineQuestions/baselineQuestions_schema",
+                "variableName": "baselineQuestions_schema",
+                "prefLabel": {
+                    "en": "Baseline"
+                }
+            },
+            {
+                "isAbout": "../activity/unalteredQuestions/unalteredQuestions_schema",
+                "variableName": "unalteredQuestions_schema",
+                "prefLabel": {
+                    "en": "Mode: Unaltered"
+                }
+            },
+            {
+                "isAbout": "../activity/whisperQuestions/whisperQuestions_schema",
+                "variableName": "whisperQuestions_schema",
+                "prefLabel": {
+                    "en": "Mode: Whisper"
+                }
+            },
+            {
+                "isAbout": "../activity/reverbQuestions/reverbQuestions_schema",
+                "variableName": "reverbQuestions_schema",
+                "prefLabel": {
+                    "en": "Mode: Reverb"
+                }
+            },
+            {
+                "isAbout": "../activity/harmonizeQuestions/harmonizeQuestions_schema",
+                "variableName": "harmonizeQuestions_schema",
+                "prefLabel": {
+                    "en": "Mode: Harmonize"
+                }
+            },
+            {
+                "isAbout": "../activity/finalInterview/finalInterview_schema",
+                "variableName": "final_Interview_schema",
+                "prefLabel": {
+                    "en": "Final Interview"
+                }
+            },
+            {
+                "isAbout": "../activity/ThankYou/ThankYou_schema",
+                "variableName": "ThankYou_schema",
+                "prefLabel": {
+                    "en": "Submit Responses"
+                }
+            }
+        ],
+        "allow": [
+            "reproschema:AutoAdvance",
+	    "reproschema:AllowExport"
+        ]
+    }
+}
