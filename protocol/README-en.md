@@ -24,7 +24,7 @@
 <section>
   <div class="text" style="padding-top: 1rem">
     <h3>About this Session</h3>
-    <p>Today, we will do a testing session consisting of a baseline assessment of your fluency and an initial assessment using four feedback modes: raw voice, reverb, whisper, and harmony. With those modes, you will hear your voice altered.<br><br>Here is how the session will take place today:
+    <p>Today, we will do a final testing session consisting of a baseline assessment of your fluency and an assessment using four feedback modes: raw voice, reverb, whisper, and harmony. With those modes, you will hear your voice altered.<br><br>Here is how the session will take place today:
 <br>(1) First, we will ask you a few questions
 <br>(2) Next, we will ask you to do a volume check to ensure recording quality
 <br>(3) Next, we will establish your fluency baseline with a series of open questions
