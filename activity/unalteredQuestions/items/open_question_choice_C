@@ -17,11 +17,11 @@
         "multipleChoice": false,
         "choices": [
             {
-                "name": "Tell me about something you are absolutely determined to do in your life.",
+                "name": "What is your favorite lifehack, or unexpected DIY way to solve a problem?",
                 "value": 0
             },
             {
-                "name": "Do you want to retire someday? What do you want to do when you retire?",
+                "name": "Tell a story about an encounter you had lately with an animal.",
                 "value": 1
             }
         ]

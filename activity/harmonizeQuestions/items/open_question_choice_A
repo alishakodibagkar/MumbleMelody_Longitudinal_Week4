@@ -17,11 +17,11 @@
         "multipleChoice": false,
         "choices": [
             {
-                "name": "What habit do you have now that you wish you started much earlier?",
+                "name": "What is something that used to exist that you wished was still around?",
                 "value": 0
             },
             {
-                "name": "What is your favorite article of clothing that you own and why?",
+                "name": "What was something a teacher did that had a strong impact on you?",
                 "value": 1
             }
         ]

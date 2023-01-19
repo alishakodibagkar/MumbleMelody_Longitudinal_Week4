@@ -17,11 +17,11 @@
         "multipleChoice": false,
         "choices": [
             {
-                "name": "What do you always keep in your fridge?",
+                "name": "In the past people were buried with the items they would need in the afterlife. What would you want buried with you so you could use it in the afterlife?",
                 "value": 0
             },
             {
-                "name": "What would you say is your spirit animal and why?",
+                "name": "Do you prefer fiction or nonfiction? Why? ",
                 "value": 1
             }
         ]

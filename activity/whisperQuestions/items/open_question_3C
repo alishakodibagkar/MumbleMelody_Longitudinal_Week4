@@ -6,7 +6,7 @@
     "description": "This is a audio passage record item.",
     "schemaVersion": "1.0.0-rc4",
     "version": "0.0.1",
-    "question": "Answer the following question for 90 seconds:<br><b>Do you like sports? Why? Which ones do you like? What is your favorite team/player?<b>",
+    "question": "Answer the following question for 90 seconds:<br><b>Talk about a quirk or a peculiarity that you or someone in your family has.<b>",
     "ui": {
         "inputType": "audioCheck"
     },

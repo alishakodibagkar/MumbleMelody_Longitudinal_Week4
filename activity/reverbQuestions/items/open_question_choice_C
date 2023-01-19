@@ -17,11 +17,11 @@
         "multipleChoice": false,
         "choices": [
             {
-                "name": "When was the last time you worked incredibly hard?",
+                "name": "What movie can you watch over and over without ever getting tired of it?",
                 "value": 0
             },
             {
-                "name": "What are your favorite public places to be in?",
+                "name": "Who has had the biggest impact on who you have become? Tell me about them.",
                 "value": 1
             }
         ]

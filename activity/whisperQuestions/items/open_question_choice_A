@@ -17,11 +17,11 @@
         "multipleChoice": false,
         "choices": [
             {
-                "name": "Where is the worst place you have been stuck for a long time?",
+                "name": "What do you do when you hang out with your friends?",
                 "value": 0
             },
             {
-                "name": "What is something you will NEVER do again? Why?",
+                "name": "What takes a lot of time but is totally worth it? Why?",
                 "value": 1
             }
         ]

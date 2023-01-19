@@ -17,11 +17,11 @@
         "multipleChoice": false,
         "choices": [
             {
-                "name": "What is something you will NEVER do again? Why?",
+                "name": "What takes a lot of time but is totally worth it? Why?",
                 "value": 0
             },
             {
-                "name": "Do you like sports? Why? Which ones do you like? What is your favorite team/player?",
+                "name": "Talk about a quirk or a peculiarity that you or someone in your family has.",
                 "value": 1
             }
         ]

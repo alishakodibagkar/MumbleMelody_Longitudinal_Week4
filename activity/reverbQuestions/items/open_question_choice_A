@@ -17,11 +17,11 @@
         "multipleChoice": false,
         "choices": [
             {
-                "name": "What do you spend the most time thinking about?",
+                "name": "What job would you get if you were out of a job tomorrow?",
                 "value": 0
             },
             {
-                "name": "When was the last time you worked incredibly hard?",
+                "name": "What movie can you watch over and over without ever getting tired of it?",
                 "value": 1
             }
         ]

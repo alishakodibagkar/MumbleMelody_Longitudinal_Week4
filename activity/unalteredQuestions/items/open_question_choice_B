@@ -17,11 +17,11 @@
         "multipleChoice": false,
         "choices": [
             {
-                "name": "Talk about something you broke.",
+                "name": "What’s the weirdest food combination you’ve ever tried?",
                 "value": 0
             },
             {
-                "name": "Do you want to retire someday? What do you want to do when you retire?",
+                "name": "Tell a story about an encounter you had lately with an animal.",
                 "value": 1
             }
         ]

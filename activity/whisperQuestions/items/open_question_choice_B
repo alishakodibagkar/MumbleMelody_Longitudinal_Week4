@@ -17,11 +17,11 @@
         "multipleChoice": false,
         "choices": [
             {
-                "name": "Where is the worst place you have been stuck for a long time?",
+                "name": "What do you do when you hang out with your friends?",
                 "value": 0
             },
             {
-                "name": "Do you like sports? Why? Which ones do you like? What is your favorite team/player?",
+                "name": "Talk about a quirk or a peculiarity that you or someone in your family has.",
                 "value": 1
             }
         ]

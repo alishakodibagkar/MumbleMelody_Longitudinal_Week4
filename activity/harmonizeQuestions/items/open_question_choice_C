@@ -17,11 +17,11 @@
         "multipleChoice": false,
         "choices": [
             {
-                "name": "What is your favorite article of clothing that you own and why?",
+                "name": "What was something a teacher did that had a strong impact on you?",
                 "value": 0
             },
             {
-                "name": "If you could meet anyone from the past, who and why?",
+                "name": "What is the most valuable item you have ever lost? ",
                 "value": 1
             }
         ]

@@ -17,11 +17,11 @@
         "multipleChoice": false,
         "choices": [
             {
-                "name": "What habit do you have now that you wish you started much earlier?",
+                "name": "What is something that used to exist that you wished was still around?",
                 "value": 0
             },
             {
-                "name": "If you could meet anyone from the past, who and why?",
+                "name": "What is the most valuable item you have ever lost?",
                 "value": 1
             }
         ]
