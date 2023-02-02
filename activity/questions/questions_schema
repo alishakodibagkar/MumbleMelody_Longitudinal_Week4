@@ -4,7 +4,7 @@
     "@id": "questions_schema",
     "prefLabel": "Questions",
     "description": "Questions for the day",
-    "preamble": "Please answer the following questions:",
+    "preamble": "TIME REMAINING: ~27 min<br><br>Please answer the following questions:",
     "schemaVersion": "1.0.0-rc4",
     "version": "0.0.1",
     "ui": {
