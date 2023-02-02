@@ -6,13 +6,13 @@
     "description": "This is a audio passage record item.",
     "schemaVersion": "1.0.0-rc4",
     "version": "0.0.1",
-    "question": "Answer the following question for 60 seconds:<br><b>Please tell us about something memorable that happened to you this week<b>",
+    "question": "Answer the following question for 90 seconds. Please speak for the ENTIRE duration:<br><b>Please tell us about something memorable that happened to you this week<b>",
     "ui": {
         "inputType": "audioCheck"
     },
     "responseOptions": {
         "valueType": "schema:AudioObject",
         "minValue": 0,
-        "maxValue": 60000
+        "maxValue": 90000
     }
 }

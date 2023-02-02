@@ -6,7 +6,7 @@
     "description": "This is a audio passage record item.",
     "schemaVersion": "1.0.0-rc4",
     "version": "0.0.1",
-    "question": "Answer the following question for 90 seconds:<br><b>What movie can you watch over and over without ever getting tired of it?<b>",
+    "question": "Answer the following question for 90 seconds. Please speak for the ENTIRE duration:<br><b>What movie can you watch over and over without ever getting tired of it?<b>",
     "ui": {
         "inputType": "audioCheck"
     },

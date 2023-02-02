@@ -6,7 +6,7 @@
     "description": "Introduction to Voice Section",
     "schemaVersion": "1.0.0-rc4",
     "version": "0.0.1",
-    "question": "You are almost done with this testing session. We have a couple of final questions for you. For these final questions, please turn off the Mumble Melody app and answer these questions without using any modes. You will need to answer these questions for 1 minute each.",
+    "question": "You are almost done with this testing session. We have a couple of final questions for you. For these final questions, please turn off the Mumble Melody app and answer these questions without using any modes. You will need to answer these questions for 90 seconds each. If you run out of content towards the prompt, please continue speaking until the countdown ends.",
     "ui": {
         "inputType": "radio"
     },
