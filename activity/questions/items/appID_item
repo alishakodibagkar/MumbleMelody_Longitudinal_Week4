@@ -1,12 +1,12 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
     "@type": "reproschema:Field",
-    "@id": "appID_item",
+    "@id": "app_ID_item",
     "prefLabel": "App ID",
     "description": "App ID",
     "schemaVersion": "1.0.0-rc4",
     "version": "0.0.1",
-    "question": "Input your 8-digit App ID for the Mumble Melody app (located under “Application ID” on the home page):",
+    "question": "During this step, we will link your submission for this session to your Mumble Melody User ID. In order to do this, please enter the Mumble Melody app on your Apple device and tap the “User ID” button on the home page. The 8-digit ID User ID will be displayed.<br><br>Input your 8-digit User ID below:",
     "ui": {
         "inputType": "text"
     },
