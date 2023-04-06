@@ -1,0 +1,18 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "passage_read",
+    "prefLabel": "audio passage record item",
+    "description": "This is a audio passage record item.",
+    "schemaVersion": "1.0.0-rc4",
+    "version": "0.0.1",
+    "question": "<p align=\"left\">Thank you for answering the open questions. Now, please read the following passage out loud and click Stop when you are finished reading. If you do not finish by the end if the countdown, you can submit what you have read so far:<br><br><b>&emsp;&emsp;So here we are in Friuli, tucked away in a remote corner of the Alpine foothills in northeastern Italy, at a  little restaurant. I have to admit that when I travel, history is not the first thing on my mind. Food and wine are. And that’s what sold me on Friuli. It is famous as a  source of some of Italy’s best white wines. We went  primarily in search of wines, unaware that we soon  would make a culinary detour.<br>&emsp;&emsp;Occupying the extreme northeast corner of Italy,  Friuli’s scenery ranges from rugged coastline along the  eastern border to placid plains in the west and the  majestic Alps in the north, where Italy butts up against  Austria. Directly to the south is Venice, just a little more  than an hour and a half away.<br>&emsp;&emsp;Though off the beaten tourist track, Friuli is hard in the path of history. Standing at one of the major  crossroads between Western Europe and the East, it was conquered by just about everyone who passed by. As a result, things look different here. Rather than the  familiar cultural overlay of most of Italy, the central  European influence is readily apparent in Friuli. The  architecture tends more toward Austrian grandeur than  Tuscan simplicity. Here you’ll find gray stone castles  rather than sun-drenched villas. The people look  different, too, taller and blonder than southern Italians, and with plenty of German and Central European surnames.<b>",
+    "ui": {
+        "inputType": "audioCheck"
+    },
+    "responseOptions": {
+        "valueType": "schema:AudioObject",
+        "minValue": 0,
+        "maxValue": 240000
+    }
+}

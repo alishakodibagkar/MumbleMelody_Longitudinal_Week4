@@ -22,7 +22,7 @@
 <section>
   <div class="text" style="padding-top: 1rem">
   <div class="text" style="padding-top: 1rem">
-    <h3>Total Session Time: ~30 MINUTES</h3>
+    <h3>Total Session Time: ~32 MINUTES</h3>
   </div>
 </div>
 

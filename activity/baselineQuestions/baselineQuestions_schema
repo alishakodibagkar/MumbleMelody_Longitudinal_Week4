@@ -4,7 +4,7 @@
     "@id": "baselineQuestions_schema",
     "prefLabel": "Baseline Questions",
     "description": "Baseline Questions.",
-    "preamble": "TIME REMAINING: ~25 min<br><br>For each speaking task, you should click the <u>Record</u> button before speaking and speak for the entire duration. Feel free to stutter freely while speaking.",
+    "preamble": "TIME REMAINING: ~27 min<br><br>For each speaking task, you should click the <u>Record</u> button before speaking and speak for the entire duration. When speaking, try your best to avoid using word replacements or other strategies you typically may use to mask or reduce your stutter. Feel free to stutter freely while speaking.",
     "schemaVersion": "1.0.0-rc4",
     "version": "0.0.1",
     "ui": {
@@ -28,6 +28,10 @@
 		{"isAbout": "items/open_question_3",
                 "variableName": "open_question_choice_3",
                 "isVis": "open_question_choice_1 === 1"
+		},  
+		{"isAbout": "items/passage_read",
+                "variableName": "passage_read",
+                "isVis": true
 		}
         ],
         "order": [
@@ -35,7 +39,8 @@
 	    "items/open_question_1",
             "items/open_question_choice_1",
             "items/open_question_2",
-            "items/open_question_3"
+            "items/open_question_3",
+            "items/passage_read"
         ],
         "shuffle": false,
         "allow": [
