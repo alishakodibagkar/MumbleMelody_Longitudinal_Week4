@@ -8,7 +8,7 @@
     "version": "0.0.1",
     "question": "Answer the following question for 90 seconds. Please think about your answer prior to clicking Record, and speak for the ENTIRE duration:<br><b>In the past people were buried with the items they would need in the afterlife. What would you want buried with you so you could use it in the afterlife?<b>",
     "ui": {
-        "inputType": "audioCheck"
+        "inputType": "audioRecordNoStop"
     },
     "responseOptions": {
         "valueType": "schema:AudioObject",

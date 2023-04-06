@@ -8,7 +8,7 @@
     "version": "0.0.1",
     "question": "Answer the following question for 90 seconds. Please think about your answer prior to clicking Record, and speak for the ENTIRE duration:<br><b>What do you do when you hang out with your friends?<b>",
     "ui": {
-        "inputType": "audioCheck"
+        "inputType": "audioRecordNoStop"
     },
     "responseOptions": {
         "valueType": "schema:AudioObject",
